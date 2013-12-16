@@ -54,7 +54,6 @@ game.PlayerEntity = me.ObjectEntity.extend({
         game.objectsPool[this.GUID] = this;
         game.player = this;
         this.updateColRect(8, 32, 8, 32);
-        console.log(this);
     },
     
     checkMovement: function () {
